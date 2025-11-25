@@ -1,0 +1,58 @@
+name: foodgo
+description: "FoodGo App"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  bloc: ^9.1.0
+  flutter_bloc: ^9.1.1
+  flutter_svg: ^2.2.2
+  google_fonts: ^6.3.2
+  get_storage: ^2.1.1
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_gen: ^5.12.0
+  animate_do: ^4.2.0
+  lottie: ^3.3.2
+  connectivity_plus: ^7.0.0
+  http: ^1.6.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+  flutter_gen_runner: ^5.12.0
+  build_runner: ^2.10.2
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.7
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/Logo.png"
+  min_sdk_android: 21
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/bottom_bar/
+    - assets/icons/account_icon/
+    - assets/mock/
+    - assets/lotties/

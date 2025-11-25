@@ -1,0 +1,374 @@
+{
+  "resturants": [
+    {
+      "name":"Besh Qozon",
+      "rating" : 4.5,
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500",
+      "description": "Besh Qozon restoranimizda an'anaviy usulda besh xil qozonlarda turli xil mazali oshlar tayyorlanadi. Bizning oshpazlarimiz ko'p yillik tajribaga ega bo'lib, har bir taomni o'ziga xos ta'm va hidga ega qilish uchun maxsus usullar qo'llaydilar. Restoran shinam va qulay muhitda joylashgan bo'lib, oilaviy bayramlar va do'stlar bilan uchrashuvlar uchun ajoyib joy hisoblanadi.",
+      "location": "Toshkent, Uzbekiston",
+      "phone_number" : "+998 93 217 29 12",
+      "menu" : [
+        {
+          "name": "Toy oshi",
+          "price": "45.000",
+          "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400"
+        },
+        {
+          "name": "Zigir oshi",
+          "price": "50.000",
+          "image": "https://images.unsplash.com/photo-1645177628172-a94c1f96e6db?w=400"
+        },
+        {
+          "name": "Devzira oshi",
+          "price": "55.000",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400"
+        },
+        {
+          "name": "Manti",
+          "price": "25.000",
+          "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=400"
+        },
+        {
+          "name": "Somsa",
+          "price": "8.000",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Fayz",
+      "rating" : 4.5,
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500",
+      "description": "Fayz restoranimiz o'zbek milliy taomlarining eng yaxshi namunalarini taqdim etadi. Bu yerda siz har xil turdagi oshlar, sho'rva, norin va boshqa milliy taomlarni tatib ko'rishingiz mumkin. Restoranimizda mehmonlar uchun zamonaviy interer va milliy uslubda bezatilgan xonalar mavjud. Har kuni yangi tayyorlangan issiq va mazali taomlar bilan xizmat ko'rsatamiz.",
+      "location": "Toshkent, Uzbekiston",
+      "phone_number" : "+998 93 222 12 12",
+      "menu" : [
+        {
+          "name": "Shashlik",
+          "price": "35.000",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400"
+        },
+        {
+          "name": "Mastava",
+          "price": "20.000",
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400"
+        },
+        {
+          "name": "Lag'mon",
+          "price": "28.000",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400"
+        },
+        {
+          "name": "Norin",
+          "price": "30.000",
+          "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
+        },
+        {
+          "name": "Chuchvara",
+          "price": "22.000",
+          "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=400"
+        },
+        {
+          "name": "Dimlama",
+          "price": "40.000",
+          "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Osh Markazi",
+      "rating" : 4.8,
+      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500",
+      "description": "Osh Markazi Samarqand shahrining eng mashhur restoranilaridan biri bo'lib, bu yerda an'anaviy Samarqand uslubida tayyorlangan oshlar va milliy taomlar taqdim etiladi. Restoranimiz keng va shinam zalga ega bo'lib, katta guruhlar va oilaviy tadbirlar uchun juda qulay. Bizning oshpazlarimiz faqat sifatli mahsulotlardan foydalanib, har bir taomga maxsus e'tibor berishadi.",
+      "location": "Samarqand, Uzbekiston",
+      "phone_number" : "+998 66 234 56 78",
+      "menu" : [
+        {
+          "name": "Samarqand oshi",
+          "price": "35.000",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400"
+        },
+        {
+          "name": "Dimlama",
+          "price": "40.000",
+          "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400"
+        },
+        {
+          "name": "Kabob",
+          "price": "45.000",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400"
+        },
+        {
+          "name": "Sho'rva",
+          "price": "18.000",
+          "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=400"
+        },
+        {
+          "name": "Qozonkabob",
+          "price": "38.000",
+          "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Choyhona",
+      "rating" : 4.2,
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=500",
+      "description": "Choyhona o'zbek milliy taomlari va issiq choy bilan mehmonlarni kutib oladi. Bu yerda siz an'anaviy milliy muhitda dam olib, mazali taomlardan bahramand bo'lishingiz mumkin. Restoranimizda ko'rpacha va dasturxonlar mavjud bo'lib, milliy uslubda bezatilgan. Har xil turdagi choylar va shirinliklar ham taqdim etiladi.",
+      "location": "Buxoro, Uzbekiston",
+      "phone_number" : "+998 65 123 45 67",
+      "menu" : [
+        {
+          "name": "Norin",
+          "price": "25.000",
+          "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
+        },
+        {
+          "name": "Shurva",
+          "price": "18.000",
+          "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=400"
+        },
+        {
+          "name": "Tandir kabob",
+          "price": "42.000",
+          "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=400"
+        },
+        {
+          "name": "Buxoro oshi",
+          "price": "32.000",
+          "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400"
+        },
+        {
+          "name": "Halim",
+          "price": "20.000",
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Milliy Taomlar",
+      "rating" : 4.6,
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500",
+      "description": "Milliy Taomlar restorani har xil milliy taomlar assortimenti bilan mashhur. Bu yerda siz O'zbekistonning turli mintaqalarida tayyorlanadigan taomlarni tatib ko'rishingiz mumkin. Restoran zamonaviy jihozlar bilan jihozlangan va yuqori darajadagi xizmat ko'rsatadi. Har bir taom an'anaviy retseptlar asosida tayyorlanadi.",
+      "location": "Andijon, Uzbekiston",
+      "phone_number" : "+998 74 345 67 89",
+      "menu" : [
+        {
+          "name": "Kovurma oshi",
+          "price": "38.000",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400"
+        },
+        {
+          "name": "Qovurma lag'mon",
+          "price": "28.000",
+          "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400"
+        },
+        {
+          "name": "Jiz",
+          "price": "35.000",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400"
+        },
+        {
+          "name": "Tandir non",
+          "price": "5.000",
+          "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400"
+        },
+        {
+          "name": "Qazi",
+          "price": "55.000",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400"
+        },
+        {
+          "name": "Beshbarmok",
+          "price": "45.000",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Saroy",
+      "rating" : 4.9,
+      "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=500",
+      "description": "Saroy premium o'zbek oshxonasi bo'lib, eng yuqori sifatli mahsulotlar va professional oshpazlar bilan ishlaydi. Restoranimizda hashamatli interer, mukammal xizmat va unutilmas ta'mlar sizni kutmoqda. Bu yerda biznes uchrashuvlar, bayramlar va maxsus tadbirlar uchun alohida xonalar mavjud. Har bir mehmon o'zini qirollik muhitda his qiladi.",
+      "location": "Toshkent, Chilonzor",
+      "phone_number" : "+998 91 456 78 90",
+      "menu" : [
+        {
+          "name": "Devzira oshi",
+          "price": "55.000",
+          "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400"
+        },
+        {
+          "name": "Qazi-karta",
+          "price": "65.000",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400"
+        },
+        {
+          "name": "Premium shashlik",
+          "price": "60.000",
+          "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400"
+        },
+        {
+          "name": "Baliq kabob",
+          "price": "70.000",
+          "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400"
+        },
+        {
+          "name": "Tovuq kabob",
+          "price": "50.000",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Osh Malikasi",
+      "rating" : 4.3,
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500",
+      "description": "Osh Malikasi restoranida ayollar tomonidan tayyorlangan mazali va sog'lom oshlar taklif etiladi. Bu yerda har bir taom ona mehri va iliq qo'llar bilan tayyorlanadi. Restoran oilaviy muhitda ishlaydi va har bir mehmon uyda his qiladi. An'anaviy retseptlar va maxsus ingredientlar ishlatiladi.",
+      "location": "Farg'ona, Uzbekiston",
+      "phone_number" : "+998 73 567 89 01",
+      "menu" : [
+        {
+          "name": "Farg'ona oshi",
+          "price": "32.000",
+          "image": "https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=400"
+        },
+        {
+          "name": "Qaynatma",
+          "price": "22.000",
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400"
+        },
+        {
+          "name": "Manti",
+          "price": "25.000",
+          "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=400"
+        },
+        {
+          "name": "Chuchvara",
+          "price": "20.000",
+          "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=400"
+        },
+        {
+          "name": "Tukhum barak",
+          "price": "28.000",
+          "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Qo'qon Oshi",
+      "rating" : 4.7,
+      "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=500",
+      "description": "Qo'qon Oshi restorani Qo'qon uslubida tayyorlangan maxsus oshlar bilan mashhur. Bu yerda Farg'ona vodiysining eng yaxshi taomlarini topish mumkin. Restoran an'anaviy me'morchilik uslubida qurilgan va milliy bezaklar bilan jihozlangan. Professional oshpazlar har bir taomni maxsus e'tibor bilan tayyorlaydilar.",
+      "location": "Qo'qon, Uzbekiston",
+      "phone_number" : "+998 73 678 90 12",
+      "menu" : [
+        {
+          "name": "Qo'qon oshi",
+          "price": "42.000",
+          "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400"
+        },
+        {
+          "name": "Lag'mon",
+          "price": "26.000",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400"
+        },
+        {
+          "name": "Shivit oshi",
+          "price": "30.000",
+          "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=400"
+        },
+        {
+          "name": "Somsa",
+          "price": "8.000",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400"
+        },
+        {
+          "name": "Ko'k somsa",
+          "price": "10.000",
+          "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400"
+        },
+        {
+          "name": "Jiz",
+          "price": "38.000",
+          "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Xorazm Taom",
+      "rating" : 4.4,
+      "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=500",
+      "description": "Xorazm Taom restorani Xorazm mintaqasining o'ziga xos taomlari bilan tanilgan. Bu yerda siz Xorazm oshxonasining noyob ta'mlarini kashf qilishingiz mumkin. Restoran an'anaviy xorazmcha uslubda bezatilgan va mehmonlarga samimiy muhit taqdim etadi. Barcha taomlar mahalliy mahsulotlardan tayyorlanadi.",
+      "location": "Urganch, Uzbekiston",
+      "phone_number" : "+998 62 789 01 23",
+      "menu" : [
+        {
+          "name": "Tukhum barak",
+          "price": "30.000",
+          "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=400"
+        },
+        {
+          "name": "Shivit oshi",
+          "price": "24.000",
+          "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=400"
+        },
+        {
+          "name": "Xorazm oshi",
+          "price": "35.000",
+          "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400"
+        },
+        {
+          "name": "Norin",
+          "price": "28.000",
+          "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
+        },
+        {
+          "name": "Baliq shurva",
+          "price": "32.000",
+          "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=400"
+        }
+      ]
+    },
+    {
+      "name":"Milliy Dastarxon",
+      "rating" : 4.6,
+      "image": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=500",
+      "description": "Milliy Dastarxon restorani milliy taomlar va mehmondo'stlik an'analari bilan mashhur. Bu yerda siz o'zbek oshxonasining barcha klassik taomlarini topishingiz mumkin. Restoran keng zallar va yozma maydonchalarga ega. Har bir mehmon alohida e'tibor va g'amxo'rlik bilan kutib olinadi. Taomlar har doim yangi va issiq holda xizmat qilinadi.",
+      "location": "Namangan, Uzbekiston",
+      "phone_number" : "+998 69 890 12 34",
+      "menu" : [
+        {
+          "name": "Chuchvara",
+          "price": "15.000",
+          "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=400"
+        },
+        {
+          "name": "Manti",
+          "price": "18.000",
+          "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=400"
+        },
+        {
+          "name": "Osh",
+          "price": "30.000",
+          "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400"
+        },
+        {
+          "name": "Somsa",
+          "price": "7.000",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400"
+        },
+        {
+          "name": "Lag'mon",
+          "price": "25.000",
+          "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400"
+        },
+        {
+          "name": "Mastava",
+          "price": "22.000",
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400"
+        }
+      ]
+    }
+  ]
+}
